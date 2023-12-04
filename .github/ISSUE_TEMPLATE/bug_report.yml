@@ -29,7 +29,7 @@ body:
       description: |
         If applicable, please provide a [self-contained minimal code example](https://stackoverflow.com/help/minimal-reproducible-example) that reproduces the problem you ran into.
         If we can copy it, run it, and see it right away, there's a much higher chance we will be able to help you.
-      placeholder: |
+    
       
     validations:
       required: false
