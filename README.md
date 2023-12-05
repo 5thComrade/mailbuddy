@@ -1,4 +1,5 @@
 # MailBuddy
+
 Send custom emails to anyone. Choose your favorite template from our vast collection, fill in the details for the custom fields and send. Sending beautiful emails have never gotten easier.
 
 ## This application use the following packages
@@ -15,7 +16,7 @@ This application is built from scratch using latest web technologies and industr
 1. Please install all the recommended vscode extensions mentioned in /.vscode/extensions.json
 2. This application is designed to be responsive and accessible. Please follow the best practices. Follow a mobile-first approach to development.
 3. This application uses [eslint](https://eslint.org/) and [prettier](https://prettier.io/) for linting and code formatting.
-There is a pre-commit hook that runs before every commit (achieved using [husky](https://typicode.github.io/husky/)). This pre-commit hook will identify any linting or formatting issues in the code and may abort your commit if it encounters any such issues. This is a preventive step taken to ensure the code quality is supreme.
+   There is a pre-commit hook that runs before every commit (achieved using [husky](https://typicode.github.io/husky/)). This pre-commit hook will identify any linting or formatting issues in the code and may abort your commit if it encounters any such issues. This is a preventive step taken to ensure the code quality is supreme.
 
 **Follow the below steps to fix code quality issues**
 
@@ -32,24 +33,24 @@ npm run eslint
 ```
 
 4. Git branching strategy
-    - Contributors should fork the [primary repository](https://github.com/5thComrade/mailbuddy)
-    - Clone the forked repo to your local machine or open the forked repo in [gitpod](https://www.gitpod.io/)
-    - Checkout to the ```development``` branch.
-    - Add the upstream remote using the below command (one-time activity)
-    ```sh
-        git remote add upstream_origin https://github.com/5thComrade/mailbuddy.git
-    ```
-    - Run the below command to check if the remote was added successfully (one-time activity)
-    ```sh
-        git remote -v
-    ```
-    - Now ensure you are in the ```development``` branch, lets take a pull from the upstream ```main``` branch
-    ```sh
-        git pull upstream_origin main
-    ```
-    - If there aren't any conflicts, the latest code from the upstream ```main``` branch will get merged to your ```development``` branch.
-    - You can now either start making your code changes while you are in ```development``` branch or you can create a new branch keeping ```development``` branch as the base branch.
-    - Once you are done with the code changes and committed these changes, lets raise a new pull request. The pull request should keep the upstream ```main``` branch as the base branch and your ```development``` branch as the source.
+   - Contributors should fork the [primary repository](https://github.com/5thComrade/mailbuddy)
+   - Clone the forked repo to your local machine or open the forked repo in [gitpod](https://www.gitpod.io/)
+   - Checkout to the `development` branch.
+   - Add the upstream remote using the below command (one-time activity)
+   ```sh
+       git remote add upstream_origin https://github.com/5thComrade/mailbuddy.git
+   ```
+   - Run the below command to check if the remote was added successfully (one-time activity)
+   ```sh
+       git remote -v
+   ```
+   - Now ensure you are in the `development` branch, lets take a pull from the upstream `main` branch
+   ```sh
+       git pull upstream_origin main
+   ```
+   - If there aren't any conflicts, the latest code from the upstream `main` branch will get merged to your `development` branch.
+   - You can now either start making your code changes while you are in `development` branch or you can create a new branch keeping `development` branch as the base branch.
+   - Once you are done with the code changes and committed these changes, lets raise a new pull request. The pull request should keep the upstream `main` branch as the base branch and your `development` branch as the source.
 
 ## Getting Started
 
