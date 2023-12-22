@@ -56,6 +56,18 @@ npm run eslint
 
 To spin up the dev server:
 
+- we need to create a .env.local file in the root of the application.
+- add following secrets and configs in that file and save.
+
+```js
+KINDE_CLIENT_ID=<clientID from kinde>
+KINDE_CLIENT_SECRET=<clientSecret from kinde>
+KINDE_ISSUER_URL=<Domain from kinde>
+KINDE_SITE_URL=http://localhost:3000
+KINDE_POST_LOGOUT_REDIRECT_URL=http://localhost:3000
+KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/
+```
+
 ```bash
 npm run dev
 ```
