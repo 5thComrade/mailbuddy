@@ -13,6 +13,7 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx,js,jsx,json,md,html}\" --cache"
   },
   "dependencies": {
+    "@kinde-oss/kinde-auth-nextjs": "^2.0.13",
     "@radix-ui/react-slot": "^1.0.2",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
