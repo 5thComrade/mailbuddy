@@ -1,3 +1,4 @@
+import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/server";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
           emails to anyone.
         </p>
         <Button className="mt-6 px-8 py-6 text-lg font-light">
-          Start for free
+          <RegisterLink>Start for free</RegisterLink>
         </Button>
       </div>
     </div>
