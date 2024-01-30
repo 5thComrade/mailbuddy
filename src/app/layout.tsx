@@ -24,7 +24,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn("font-nunito relative font-light", nunito.variable)}>
         <Navbar />
-        <main className="absolute left-0 right-0 top-0 z-0">{children}</main>
+        <main className="absolute inset-x-0 top-0 z-0 mt-36 px-12">
+          {children}
+        </main>
       </body>
     </html>
   );
